@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Assessment 2 game",
+"dataUrl": "webglfile.data.unityweb",
+"asmCodeUrl": "webglfile.asm.code.unityweb",
+"asmMemoryUrl": "webglfile.asm.memory.unityweb",
+"asmFrameworkUrl": "webglfile.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

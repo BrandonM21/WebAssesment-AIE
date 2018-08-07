@@ -209,6 +209,13 @@ img {vertical-align: middle;}
 </style>
 		<title>  </title>
 		<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+<script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webglfile.json");
+    </script>
 	</head>
 	<body style="background-color:powderblue;">
 <img src="D:\Users\Owner\Desktop\AIE Uni Course\Websites-webpages-webdevelopment\Web assessment\images\Cool Text - MARVELOUS GAMES 294338896002598.png" alt="LOGO" width="1288" height="108"  class="center">
@@ -235,7 +242,7 @@ img {vertical-align: middle;}
 <a href="bonus.html">Bonus Stuff</a>
 </div>
 
-
+<div id="gameContainer" style="width: 1260px; height: 600px; margin: auto"></div>
 <div class="footer">
   <p>CopyRight© Brandon Mawson 2018</p>
 </div>
